@@ -1,0 +1,55 @@
+@font-face{
+  font-family: "main-font";
+  src: url(../fonts/sansation.ttf);
+}
+
+*{
+  transition: .5s ease-in-out;
+  -moz-transition: .5s ease-in-out;
+  -webkit-transition: .5s ease-in-out;
+}
+
+.full-height{
+  height: 100%;
+}
+
+.main-background{
+  background-color: #193441;
+}
+
+.main-font{
+  font-family: "main-font";
+}
+
+.no-scroll{
+  overflow: hidden;
+}
+
+.input{
+  margin: 1%;
+  padding: 1%;
+  border-radius: 5px;
+  border-bottom-right-radius: 0;
+  border: 2px solid #91AA9D;
+  background-color: #3E606F;
+  color: #FCFFF5;
+  font-size: 3vh;
+}
+
+.main-textarea{
+  width: 98%;
+  height: 88%;
+  resize: none;
+}
+
+.submit-button{
+  float: right;
+  height: 7%;
+  margin-top: 0;
+  padding-top: .8%;
+}
+
+.submit-button:hover, .submit-button:focus{
+  border-color: #D1DBBD;
+  background-color: #91AA9D;
+}
